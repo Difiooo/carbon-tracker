@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Carbon Emission Tracker API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "allowScripts": {
+    "sqlite3@5.1.7": true
+  }
+}
